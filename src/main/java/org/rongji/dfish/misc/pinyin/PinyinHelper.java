@@ -34,10 +34,7 @@ public class PinyinHelper {
 		return VOWEL_REPLACER;
 	}
 	
-	public static void main(String[] args){
-		String s=PinyinHelper.convertToPinyinString("厦门市少年有不少参加了马拉松比赛","",WITH_TONE_MARK);
-		System.out.println(s);
-	}
+
 	public static String convertToPinyinString(String str) {
 		return convertToPinyinString(str,"",WITHOUT_TONE);
 	}
